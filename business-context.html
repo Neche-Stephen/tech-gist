@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFECH - Business Context</title>
+    <style>
+        @media print {
+            body { margin: 0; font-size: 12pt; }
+            .no-print { display: none; }
+            .page-break { page-break-before: always; }
+            h1, h2 { page-break-after: avoid; }
+            .section { break-inside: avoid; margin-bottom: 20px; }
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+            background: #fff;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #ECC80B;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .company-name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ECC80B;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #ECC80B;
+            background: #f9f9f9;
+        }
+        
+        .section h2 {
+            color: #ECC80B;
+            font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .service-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        
+        .service-item h3 {
+            color: #333;
+            margin-top: 0;
+            font-size: 1.1em;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .team-member {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .project-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        
+        .project-item h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        
+        .project-link {
+            color: #ECC80B;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .process-step {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        .step-number {
+            background: #ECC80B;
+            color: #000;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        ul.benefits {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        ul.benefits li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        ul.benefits li:before {
+            content: "✓";
+            color: #ECC80B;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .contact-info {
+            background: #ECC80B;
+            color: #000;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .print-instructions {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="print-instructions no-print">
+        <strong>📄 To download as PDF:</strong> Press Ctrl+P (or Cmd+P on Mac), then choose "Save as PDF" or "Print to PDF"
+    </div>
+
+    <div class="header">
+        <div class="company-name">PROFECH</div>
+        <div class="tagline">Design & Development Agency</div>
+        <div style="font-size: 1em; margin-top: 10px; color: #666;">
+            Website: <a href="https://profech.com" style="color: #ECC80B;">profech.com</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Company Overview</h2>
+        <p><strong>Profech</strong> is a digital solutions company focused on empowering businesses through innovative website design and development. We blend design, technology, and strategy to craft high-performing websites that elevate brands and drive business growth.</p>
+        
+        <p>We specialize in building high-performance websites and digital platforms that fuel business growth. Our team combines creativity, strategy, and cutting-edge technology to deliver seamless user experiences across all devices.</p>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Mission & Vision</h2>
+        <p><strong>Mission:</strong> To create professional, user-friendly, and business-centric websites that help our clients establish a strong digital presence.</p>
+        
+        <p><strong>Vision:</strong> To be a trusted tech partner for businesses looking to scale through digital transformation.</p>
+    </div>
+
+    <div class="section">
+        <h2>🎨 Brand Promise</h2>
+        <p><strong>"Fast Delivery, Quality Results"</strong></p>
+        <p>Every project starts with understanding your unique goals. We combine creative design with smart development to build digital solutions that drive real results for your business.</p>
+    </div>
+
+    <div class="section">
+        <h2>💼 Core Services</h2>
+        <ul class="benefits">
+            <li><strong>Website Design & Development:</strong> We build websites tailored to your business needs, using the top industry technologies to deliver excellent results.</li>
+            <li><strong>Website Redesign & Maintenance:</strong> Modernize outdated sites with fresh designs, and ongoing maintenance to keep your site running smoothly.</li>
+            <li><strong>Search Engine Optimization:</strong> Boost your visibility on Google with targeted SEO strategies that drive organic traffic and increase conversions.</li>
+            <li><strong>E-commerce Website Development:</strong> Powerful online stores with secure payment gateways, and mobile-friendly shopping experiences.</li>
+            <li><strong>Business Website Development:</strong> Professional websites designed to showcase your brand, attract customers, and grow your business online.</li>
+            <li><strong>Portfolio & Personal Websites:</strong> Stand out with a sleek portfolio or personal website that highlights your work, skills, and professional story.</li>
+        </ul>
+    </div>
+
+    <div class="section page-break">
+        <h2>🔄 Work Process</h2>
+        <p><strong>"Simple Our Work Process"</strong></p>
+        <ol style="padding-left: 20px; margin-top: 15px;">
+            <li style="margin-bottom: 15px;"><strong>Design Strategy:</strong> Design Strategy involves comprehensive approach to ensuring that the design meets the goals and needs</li>
+            <li style="margin-bottom: 15px;"><strong>Sketch Visual:</strong> Creating visual concepts and wireframes to establish the foundation of your project</li>
+            <li style="margin-bottom: 15px;"><strong>Development:</strong> Bringing designs to life with clean, efficient code and modern technologies</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Value Propositions</h2>
+        <ul class="benefits">
+            <li>Websites That Reflect Your Brand</li>
+            <li>User-Centric Design That Converts Visitors</li>
+            <li>Creative Solutions Using Modern Technologies</li>
+            <li>Top Industry Skills</li>
+            <li>Websites That Work for You</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>👥 Team Structure</h2>
+        <p><strong>"Our Team Behind The Studio"</strong> - 16+ Members</p>
+        <ul style="padding-left: 20px; margin-top: 15px;">
+            <li style="margin-bottom: 8px;"><strong>Ryan Williams</strong> - CEO & Founder</li>
+            <li style="margin-bottom: 8px;"><strong>Reece Bronson</strong> - Sr. Director</li>
+            <li style="margin-bottom: 8px;"><strong>Daniyel Karlos</strong> - Web Developer</li>
+            <li style="margin-bottom: 8px;"><strong>Steve Liddle</strong> - Web Developer</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🎨 Portfolio Projects</h2>
+        <p><strong>"Let's See Our Projects"</strong></p>
+        <ul style="padding-left: 20px; margin-top: 15px; list-style: none;">
+            <li style="margin-bottom: 15px; padding-left: 0;">
+                <strong>Instant Eye Care Clinic</strong> - Healthcare platform focused on eye care services<br>
+                <span style="color: #ECC80B;">🔗 <a href="https://smarteye.care/" target="_blank" style="color: #ECC80B;">smarteye.care</a></span>
+            </li>
+            <li style="margin-bottom: 15px; padding-left: 0;">
+                <strong>Feedback App</strong> - Lightweight feedback tool for browser extension developers<br>
+                <span style="color: #ECC80B;">🔗 <a href="https://feedbk.app/" target="_blank" style="color: #ECC80B;">feedbk.app</a></span>
+            </li>
+            <li style="margin-bottom: 15px; padding-left: 0;">
+                <strong>Crack it Find it</strong> - Interactive website for a cerebral hunt show, that seamlessly blends intellect and adventure<br>
+                <span style="color: #ECC80B;">🔗 <a href="https://crack-it-hunt.vercel.app/" target="_blank" style="color: #ECC80B;">crack-it-hunt.vercel.app</a></span>
+            </li>
+            <li style="margin-bottom: 15px; padding-left: 0;">
+                <strong>Madiba Hostel</strong> - Hospitality website showcasing accommodation services<br>
+                <span style="color: #ECC80B;">🔗 <a href="https://madibahostel.com/" target="_blank" style="color: #ECC80B;">madibahostel.com</a></span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Technology Stack</h2>
+        <p>Based on the codebase analysis, Profech utilizes modern web technologies including:</p>
+        <ul>
+            <li><strong>Frontend:</strong> React, TypeScript, Vite</li>
+            <li><strong>Styling:</strong> Bootstrap, SCSS, CSS Modules</li>
+            <li><strong>UI Components:</strong> React Icons, Lucide React, Swiper</li>
+            <li><strong>Animation:</strong> Animate.css, WOW.js</li>
+            <li><strong>Communication:</strong> EmailJS for contact forms</li>
+            <li><strong>Tools:</strong> ESLint, TypeScript for code quality</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📞 Business Context Summary</h2>
+        <p><strong>Target Market:</strong> Businesses and individuals seeking professional web development services, from startups to established companies needing digital transformation.</p>
+        
+        <p><strong>Competitive Advantage:</strong> Fast delivery combined with quality results, user-centric design approach, and comprehensive service offering from design to maintenance.</p>
+        
+        <p><strong>Business Model:</strong> Custom web development agency providing end-to-end digital solutions with emphasis on brand reflection and conversion optimization.</p>
+        
+        <p><strong>Key Differentiators:</strong></p>
+        <ul>
+            <li>Understanding unique client goals before project start</li>
+            <li>Combination of creative design with smart development</li>
+            <li>Focus on real business results and ROI</li>
+            <li>Modern technology stack and industry best practices</li>
+            <li>Comprehensive service portfolio covering all web needs</li>
+        </ul>
+    </div>
+
+    <div class="contact-info">
+        <h2 style="margin-top: 0; color: #000;">📧 Contact Information</h2>
+        <p style="margin-bottom: 0;"><strong>Website:</strong> profech.com</p>
+        <p style="margin-bottom: 0;"><strong>Business Focus:</strong> Web Design & Development, Digital Solutions</p>
+        <p style="margin-bottom: 0;"><strong>Specialization:</strong> Business-centric websites that drive growth</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #666;">
+        <p>Generated on: <span id="current-date"></span></p>
+        <p>This business context document provides a comprehensive overview of Profech's services, values, and market positioning for use in strategic planning and AI model training.</p>
+    </div>
+
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>

@@ -54,7 +54,8 @@ const ServiceArea = () => {
             className="swiper service-two-swiper"
           >
             <SwiperSlide className="swiper-slide">
-              <Link to="/service-details">
+              {/* <Link to="/service-details"> */}
+              <Link to="#">
                 <div className="icon-wrapper">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +97,8 @@ const ServiceArea = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Link to="/service-details">
+              {/* <Link to="/service-details"> */}
+              <Link to="#">
                 <div className="icon-wrapper">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +128,8 @@ const ServiceArea = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Link to="/service-details">
+              {/* <Link to="/service-details"> */}
+              <Link to="#">
                 <div className="icon-wrapper">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +160,8 @@ const ServiceArea = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Link to="/service-details">
+              {/* <Link to="/service-details"> */}
+              <Link to="#">
                 <div className="icon-wrapper">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -199,7 +203,8 @@ const ServiceArea = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Link to="/service-details">
+              {/* <Link to="/service-details"> */}
+              <Link to="#">
                 <div className="icon-wrapper">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +234,8 @@ const ServiceArea = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Link to="/service-details">
+              {/* <Link to="/service-details"> */}
+              <Link to="#">
                 <div className="icon-wrapper">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
